@@ -80,13 +80,11 @@ const ItemCard = () => {
               </button>
               <Form.Item name="abc">
                 <InputNumber
-                  // type="number"
                   min={1}
                   value={number}
                   onChange={handleChange}
-                  
+
                 />
-                {/* <input value={number} /> */}
               </Form.Item>
               <button
                 type="button"
